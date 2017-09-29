@@ -1,0 +1,23 @@
+{
+  "name": "axabackend",
+  "version": "1.0.0",
+  "description": "Backend exercise for backend job apply",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js --exec babel-node --presets env"
+  },
+  "author": "Jesús Mur Fontananls <murfontanals@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.5",
+    "jwt-simple": "^0.5.1",
+    "node-fetch": "^1.7.3",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.1"
+  }
+}
